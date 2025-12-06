@@ -3,7 +3,7 @@
 This project analyses the public Stack Overflow BigQuery dataset using **pure SQL**, with Python used only to run queries and display results.  
 The notebook explores technology trends, country-level user growth, expert vs beginner behaviour, and factors that influence answer speed.
 
-Full notebook: stackoverflow_sql_case_study.ipynb  
+Full notebook: stack-overflow-sql.ipynb
 Kaggle version:
 
 **Skills shown:**  
