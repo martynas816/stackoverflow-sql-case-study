@@ -23,8 +23,17 @@ BigQuery SQL (CTEs, `UNNEST(SPLIT())` tag explosion, conditional aggregation, `C
 - **Kaggle notebook:** https://www.kaggle.com/code/martynasdiugas/stack-overflow-sql
 
 ## Screenshots (proof)
+
+### Tag growth 2010–2022
+
 ![Tag growth 2010–2022](outputs/01_tag_growth.png)
+
+### Top tags 2020–2022
+
 ![Top tags 2020–2022](outputs/02_top_tags_2020_2022.png)
+
+### Answer speed
+
 ![Answer speed drivers](outputs/03_answer_speed.png)
 
 ## Notes / limitations
