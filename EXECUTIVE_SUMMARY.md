@@ -1,4 +1,4 @@
-# Executive summary — Stack Overflow SQL Case Study
+# Executive summary - Stack Overflow SQL Case Study
 
 ## 3 key insights
 - **Technology adoption shifts over time:** tags like `dataframe`, `node.js`, and `python-3.x` show very large growth from 2010 → 2022 (clear “what people are learning/building” signal).
@@ -11,4 +11,4 @@
 
 ## 2 next actions
 - Add **accepted-answer time** and **answer quality** measures (accepted vs not, answer score) to validate the “faster answers” conclusions.
-- Replace heuristic country extraction with a more robust approach (e.g., geo parsing library + validation) and build a small “top countries over time” dashboard.
+- Replace heuristic country extraction with a more robust approach (like geo parsing library + validation) and build a small “top countries over time” dashboard.
