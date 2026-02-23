@@ -21,8 +21,29 @@ BigQuery SQL (CTEs, `UNNEST(SPLIT())` tag explosion, conditional aggregation, `C
 - Time window: 2010–2022 (answer-speed focused on 2020 for runtime)
 
 ## Links
+- **Executive summary:** `EXECUTIVE_SUMMARY.md`
 - **Notebook (GitHub):** `stack-overflow-sql.ipynb`
+- **SQL queries:** `/queries/`
 - **Kaggle notebook:** https://www.kaggle.com/code/martynasdiugas/stack-overflow-sql
+
+## SQL queries
+
+All major notebook queries are also available as plain SQL files in `/queries/`:
+
+- `01_data_overview_sample_questions.sql`
+- `02_tag_frequency_top20.sql`
+- `03_question_volume_by_year.sql`
+- `04_tag_growth_2010_2022.sql`
+- `05_top_tags_2020_2022.sql`
+- `06_country_growth_2010_2022.sql`
+- `07_top_tags_experts.sql`
+- `08_overindexed_by_experts.sql`
+- `09_overindexed_by_beginners.sql`
+- `10_answer_speed_base_dataset_2020.sql`
+- `11_answer_speed_by_tag_count.sql`
+- `12_answer_speed_by_title_length.sql`
+- `13_answer_speed_by_score.sql`
+
 
 ## Screenshots (proof)
 
@@ -39,6 +60,6 @@ BigQuery SQL (CTEs, `UNNEST(SPLIT())` tag explosion, conditional aggregation, `C
 ![Answer speed drivers](outputs/03_answer_speed.png)
 
 ## Notes / limitations
-- Location is free-text → country extraction is approximate.
-- “Beginner vs expert” uses reputation buckets (<1000 vs ≥10000) → strong signal, not perfect ground truth.
+- Location is free-text, so country extraction is approximate.
+- “Beginner vs expert” uses reputation buckets (<1000 vs ≥10000), so it's a strong signal, not perfect ground truth.
 - Answer-speed uses time to **first** answer (not accepted answer).
